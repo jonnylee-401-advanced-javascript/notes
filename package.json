@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/jonnylee-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "jest": "^26.3.0",
     "minimist": "^1.2.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
