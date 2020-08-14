@@ -11,7 +11,7 @@ if(input.valid()){
   process.exit(9);
 }
 
-// console.log(process.argv);
+
 
 
 
