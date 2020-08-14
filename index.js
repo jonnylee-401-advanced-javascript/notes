@@ -1,13 +1,24 @@
-#!/usr/bin/env node
-('use strict');
-console.log('hello');
-
-const Input = require('./lib/input');
-const http = require('./lib/notes');
+// #!/usr/bin/env node
 const minimist = require('minimist');
+const Input = require('./lib/input');
+const Notes = require('./lib/notes') ;
 
-// process.arg reminder
-console.log(Input(action, payload));
-// console.log('input', process.args);
+const input = new Input();
+const notes = new Notes(input);
+if(input.valid()){
+  notes.execute();
+} else{
+  process.exit(9);
+}
 
-HTTP.fetch(options);
+
+
+
+
+
+
+
+
+
+
+
