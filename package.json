@@ -1,11 +1,15 @@
 {
-  "name": "notes",
+  "name": "@iamjonnylee/notesy",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line note taking app",
   "main": "index.js",
+  "bin": {
+    "notes": "index.js"
+  },
   "scripts": {
     "test": "jest --verbose --coverage"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonnylee-401-advanced-javascript/notes.git"
@@ -18,8 +22,11 @@
   "homepage": "https://github.com/jonnylee-401-advanced-javascript/notes#readme",
   "dependencies": {
     "@code-fellows/supergoose": "^1.0.2",
+    "chalk": "^4.1.0",
     "jest": "^26.4.0",
     "minimist": "^1.2.5",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
     "only": "0.0.2"
   },
   "directories": {
