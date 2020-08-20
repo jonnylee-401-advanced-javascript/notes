@@ -13,7 +13,7 @@ Notesy is a Command Line Interface package that gives the ability to take notes.
 3. Next we can type our text and hit enter to save.
 ```
 The above step combined will look something like this.
-** node . -a 'Save some text'
+* node . -a 'Save some text' *
 ```
 ```
 - node . we can type -a followed by a string to 'add' a string.(Ex: node . -a 'some words')
