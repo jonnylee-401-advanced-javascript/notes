@@ -15,6 +15,7 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology:true,
   
+  
 });
 
 const input = new Input();
@@ -25,15 +26,3 @@ if(input.valid()){
 } else{
   process.exit(9);
 }
-
-
-
-
-
-
-
-
-
-
-
-
