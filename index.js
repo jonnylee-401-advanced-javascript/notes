@@ -15,7 +15,6 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology:true,
   
-  
 });
 
 const input = new Input();
