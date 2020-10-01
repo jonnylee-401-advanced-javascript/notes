@@ -1,5 +1,5 @@
 'use strict';
-
+const Input = require('../lib/input');
 jest.mock('minimist');
 const minimist = require('minimist');
 
@@ -9,7 +9,7 @@ minimist.mockImplementation(() => {
   };
 });
 
-const Input = require('./lib/input.js');
+
 
 describe('Parse add', () => {
 
