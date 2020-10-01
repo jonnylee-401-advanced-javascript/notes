@@ -48,7 +48,7 @@ Run (npm i) cli to install dependencies.
 ```
 ### Code testing
 ```
-Code testing is done using jest by running (npm test). Test is also done automatically using github actions.
+Code testing is done using jest by running (npm test). Test is also done automatically using github actions when making a pull request.
 ```
 ### UML
 [Notesy UML](./assets/uml.md)
