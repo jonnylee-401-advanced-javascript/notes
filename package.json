@@ -9,7 +9,6 @@
   "scripts": {
     "test": "jest --verbose --coverage"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonnylee-401-advanced-javascript/notes.git"

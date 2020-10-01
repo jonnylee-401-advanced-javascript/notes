@@ -15,13 +15,13 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology:true,
   
-});
+}).then(console.log('connected'));
 
 const input = new Input();
 const notes = new Notes();
 if(input.valid()){
   notes.execute(input)
-    .then(mongoose.disconnect);
+    .then(()=>mongoose.disconnect());
 } else{
   process.exit(9);
 }
